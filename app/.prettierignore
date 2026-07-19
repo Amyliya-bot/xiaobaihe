@@ -1,0 +1,11 @@
+out
+dist
+release
+test-results
+playwright-report
+coverage
+pnpm-lock.yaml
+LICENSE.md
+build/icon-source.svg
+tsconfig.json
+tsconfig.*.json

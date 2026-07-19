@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+app/node_modules/
+
+# Build output
+app/out/
+app/dist/
+app/release/
+app/.vite/
+coverage/
+artifacts/
+app/test-results/
+app/playwright-report/
+
+# Local runtime data
+app/.local-data/
+app/.recovery/
+app/.render-cache/
+temp-frames/
+
+# Environment and logs
+.env
+.env.*
+!.env.example
+*.log
+npm-debug.log*
+
+# Editor and operating system files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*

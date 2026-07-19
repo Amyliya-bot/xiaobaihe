@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "rulesVersion": "2026.07.16",
+  "checkedAt": "2026-07-16",
+  "profiles": [
+    {
+      "id": "general-ai-720",
+      "name": "通用 AI 参考",
+      "description": "优先兼容和较小文件，适合先上传测试。",
+      "verification": "generic",
+      "frameRate": 24,
+      "maxDimension": 1280,
+      "bitrate": 5000000,
+      "minDurationSeconds": 1,
+      "maxDurationSeconds": 15,
+      "maxFileSizeMb": 100,
+      "aspectRatios": [],
+      "sourceUrl": "about:blank"
+    },
+    {
+      "id": "high-quality-1080",
+      "name": "高清通用参考",
+      "description": "保留更多轮廓与空间细节，文件更大。",
+      "verification": "generic",
+      "frameRate": 24,
+      "maxDimension": 1920,
+      "bitrate": 8000000,
+      "minDurationSeconds": 1,
+      "maxDurationSeconds": 60,
+      "maxFileSizeMb": 250,
+      "aspectRatios": [],
+      "sourceUrl": "about:blank"
+    },
+    {
+      "id": "seedance-reference",
+      "name": "Seedance 参考",
+      "description": "按公开 API 资料整理；不同入口仍需上传前核对。",
+      "verification": "partial",
+      "frameRate": 24,
+      "maxDimension": 1280,
+      "bitrate": 5000000,
+      "minDurationSeconds": 2,
+      "maxDurationSeconds": 15,
+      "maxFileSizeMb": 200,
+      "aspectRatios": [],
+      "sourceUrl": "https://docs.byteplus.com/en/docs/modelark/1520757"
+    },
+    {
+      "id": "firefly-reference",
+      "name": "Adobe Firefly 参考",
+      "description": "MP4/H.264 兼容方案；具体功能入口可能另有限制。",
+      "verification": "official-format",
+      "frameRate": 24,
+      "maxDimension": 1920,
+      "bitrate": 8000000,
+      "minDurationSeconds": 1,
+      "maxDurationSeconds": 60,
+      "maxFileSizeMb": 250,
+      "aspectRatios": [],
+      "sourceUrl": "https://helpx.adobe.com/firefly/web/firefly-video-editor/technical-requirements/technical-requirements.html"
+    },
+    {
+      "id": "runway-reference",
+      "name": "Runway 参考",
+      "description": "采用其公开支持的 MP4/H.264 格式。",
+      "verification": "official-format",
+      "frameRate": 24,
+      "maxDimension": 1920,
+      "bitrate": 8000000,
+      "minDurationSeconds": 1,
+      "maxDurationSeconds": 60,
+      "maxFileSizeMb": 250,
+      "aspectRatios": [],
+      "sourceUrl": "https://help.runwayml.com/hc/en-us/articles/42963684322323-Supported-file-types"
+    },
+    {
+      "id": "veo-extend",
+      "name": "Google Veo 延长视频",
+      "description": "严格按公开延长视频接口检查时长、帧率和画幅。",
+      "verification": "official",
+      "frameRate": 24,
+      "maxDimension": 1920,
+      "bitrate": 8000000,
+      "minDurationSeconds": 1,
+      "maxDurationSeconds": 30,
+      "maxFileSizeMb": 250,
+      "aspectRatios": ["16:9", "9:16"],
+      "sourceUrl": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/extend-a-veo-video"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+Quaternius Universal Base Characters Kit - Standard FREE version
+
+Model used: Superhero_Male_FullBody
+Author: Quaternius (@Quaternius)
+Source: https://quaternius.com/packs/universalbasecharacters.html
+Download: https://quaternius.itch.io/universal-base-characters
+Retrieved: 2026-07-16
+
+License: CC0 1.0 Universal (CC0 1.0)
+Public Domain Dedication
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Xiaobaihe removes the original textures and separate eye/eyebrow meshes,
+keeps the authored body topology and humanoid skin, and renders the result with
+the user's selected whitebox material. The preparation process is reproducible
+with scripts/prepare-quaternius-mannequin.mjs.
+
+Quaternius Universal Animation Library - Standard FREE version
+
+Files used: Unreal-Godot/UAL1_Standard.glb
+Author: Quaternius (@Quaternius), with animations credited by the author to
+Gonzalo Furnier where applicable
+Source: https://quaternius.com/packs/universalanimationlibrary.html
+Download: https://quaternius.itch.io/universal-animation-library
+Retrieved: 2026-07-17
+
+License: CC0 1.0 Universal (CC0 1.0)
+Public Domain Dedication
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Xiaobaihe uses the in-place Standard library and Three.js SkeletonUtils
+retargeting. The included pose buttons sample Idle_Loop, Sitting_Idle_Loop,
+Interact, Walk_Loop and Sprint_Loop while preserving the target mannequin's
+bone lengths. Root-motion variants and paid Pro/Source files are not included.

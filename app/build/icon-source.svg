@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Project-owned source for the Xiaobaihe application icon. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">小白盒应用图标</title>
+  <desc id="desc">白色正方形背景上的黑色粗线立方体</desc>
+  <rect width="1024" height="1024" fill="#ffffff" />
+  <path
+    d="M512 150 804 318 804 650 512 818 220 650 220 318 512 150M220 318 512 486 804 318M512 486 512 818"
+    fill="none"
+    stroke="#000000"
+    stroke-width="64"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
